@@ -74,6 +74,42 @@ NXP_Technical_Assignment/
 
 ---
 
+# Running the Project
+
+From the repository root:
+
+### Complete analysis pipeline
+
+```bash
+python main.py
+```
+
+This runs:
+
+```text
+Preprocessing
+→ Statistical Analysis
+→ Visualization Generation
+```
+
+### Dashboard
+
+```bash
+python -m streamlit run app.py
+```
+
+### Notebook
+
+Open:
+
+```text
+notebooks/analysis.ipynb
+```
+
+and execute the cells sequentially.
+
+---
+
 # 1. Data Preparation
 
 ## Preprocessing Workflow
@@ -364,12 +400,6 @@ The dashboard also provides comparison views by:
 - Income group
 - Region
 
-Run the dashboard with:
-
-```bash
-python -m streamlit run app.py
-```
-
 ---
 
 # 5. Reusable Source Code
@@ -480,42 +510,6 @@ Install dependencies:
 ```bash
 python -m pip install -r requirements.txt
 ```
-
----
-
-# 9. Running the Project
-
-From the repository root:
-
-### Complete analysis pipeline
-
-```bash
-python main.py
-```
-
-This runs:
-
-```text
-Preprocessing
-→ Statistical Analysis
-→ Visualization Generation
-```
-
-### Dashboard
-
-```bash
-python -m streamlit run app.py
-```
-
-### Notebook
-
-Open:
-
-```text
-notebooks/analysis.ipynb
-```
-
-and execute the cells sequentially.
 
 ---
 
