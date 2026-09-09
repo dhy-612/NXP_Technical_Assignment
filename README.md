@@ -513,7 +513,7 @@ python -m pip install -r requirements.txt
 
 ---
 
-# 10. Reproducibility
+# 9. Reproducibility
 
 The project is designed to reproduce the analysis from the provided World Bank datasets.
 
@@ -531,7 +531,7 @@ The local Python virtual environment should not be uploaded to GitHub.
 
 ---
 
-# 11. Technology Stack
+# 10. Technology Stack
 
 - Python
 - Pandas
@@ -542,7 +542,7 @@ The local Python virtual environment should not be uploaded to GitHub.
 
 ---
 
-# 12. Data Source
+# 11. Data Source
 
 **World Bank — World Development Indicators**
 
@@ -550,7 +550,7 @@ The five indicators used in this project are the indicators specified in the NXP
 
 ---
 
-# 13. Key Findings
+# 12. Key Findings
 
 - **Low income** has the largest cumulative movement in the average male-female life expectancy gap.
 - **Low income** has the greatest variance in annual average life expectancy across 1960–2023.
